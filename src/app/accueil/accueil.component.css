@@ -1,0 +1,24 @@
+.articleaffiche{
+  display:  grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  /* Vos styles de carte normaux */
+}
+
+.is-archived {
+  /* Styles pour griser la carte */
+  opacity: 0.5;
+  /* Exemple : réduire l'opacité pour griser */
+  pointer-events: none;
+  /* Désactiver les interactions sur la carte grise */
+  /* Autres styles pour indiquer la carte désarchivée */
+}
+
+#titre,#contenu{
+  width: 100%;
+  height: 35px;
+}

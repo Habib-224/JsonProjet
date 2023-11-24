@@ -1,0 +1,21 @@
+#userDropdown img
+{
+  height: 40px;
+  width: 40px;
+}
+#userDropdown span
+{
+ color:#650329 ;
+}
+
+.Menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left:50px;
+}

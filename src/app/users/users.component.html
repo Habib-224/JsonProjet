@@ -1,0 +1,19 @@
+<div class="ChamInput">
+  <input type="text" class="" placeholder="enter a user profile" id="vide" [(ngModel)]="userFilter">
+</div>
+<div class="container">
+  <div class="card1" >
+  <div class="card text-white mb-3" style="width: 18rem; background-color: #136c8b;" *ngFor = "let datauser of filteredUser">
+    <div class="card-header">nom : {{datauser.name}}</div>
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 16px;">email : {{datauser.email}}</h5>
+      <p class="card-text"> Rue : {{datauser.address.street}}</p>
+      <p class="card-text">Phone : {{datauser.phone}}</p>
+      <p class="card-text"> web : {{datauser.website}}</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+

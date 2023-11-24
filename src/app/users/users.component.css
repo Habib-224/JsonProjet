@@ -1,0 +1,21 @@
+.card1{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+/* ----------------------- */
+
+.ChamInput{
+  display: flex;
+  justify-content: end;
+  margin-right: 155px;
+  margin-top: 20px;
+}
+
+.ChamInput input{
+  width: 400px;
+  height: 40px;
+
+}

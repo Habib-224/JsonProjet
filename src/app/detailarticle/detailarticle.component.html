@@ -1,0 +1,17 @@
+<app-header></app-header>
+<div class="Container d-flex">
+  <div class="Section_image">
+    <img src="https://img.freepik.com/free-photo/documents-paperwork-business-strategy-concept_53876-120383.jpg?size=626&ext=jpg&ga=GA1.1.662083046.1696519376&semt=sph" alt="">
+  </div>
+  <div class="Comment_Section">
+    <h3>Liste des commentaires</h3>
+    <div class="Commentaire" *ngFor="let comments of comment">
+      <div class="commentaire1">
+        <p>{{comments.email}}</p>
+        <p>{{comments.body}}</p>
+      </div>
+      <hr width="30%">
+    </div>
+  </div>
+
+</div>
