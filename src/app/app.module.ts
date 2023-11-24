@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { CouleurfondDirective } from './couleurfond.directive';
 
 import { DetailarticleComponent } from './detailarticle/detailarticle.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DetailarticleComponent } from './detailarticle/detailarticle.component'
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

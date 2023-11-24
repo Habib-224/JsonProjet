@@ -26,6 +26,9 @@ export class AccueilComponent {
   public post: any;
   public idpost:any
 
+  public  page = 1;
+  public pageSize = 10;
+
   // Filtre js
   public _UserFilter = "";
   public filteredUser: any[] = [];
